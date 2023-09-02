@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<body>
+   <ul class="list">
+      <li title="my" class="my1">
+         <strong id="holymoly">my</strong>
+         <img src="" alt="my">
+      </li>
+      <li title="name" class="name2">
+         name
+         <img src="" alt="name">
+      </li>
+      <li title="is" class="is3">
+         is
+         <img src="" alt="is">
+      </li>
+
+      <div class="some-div"></div>
+      <div id="mySpecialDiv"></div>
+      <div class="someclass"></div>
+      <div id="someid"></div>
+      <link rel="stylesheet" href="">
+      <button type="button"></button>
+      <div class="something"></div>
+      <div class="purple">
+         <ul>
+            <li class="cyan"></li>
+         </ul>
+      </div>
+
+      <header>
+         <nav>
+            <ul>
+               <li>something #1</li>
+               <li>something #2</li>
+               <li>something #3</li>
+            </ul>
+         </nav>
+      </header>
+
+      <header>
+         <nav>
+            <ul>
+               <li>something #001</li>
+               <li>something #002</li>
+               <li>something #003</li>
+            </ul>
+         </nav>
+      </header>
+
+      <header>
+         <nav></nav>
+      </header>
+      <main></main>
+      <footer></footer>
+
+      <!-- (header>nav)+main+footer -->
+      <header>
+         <nav></nav>
+      </header>
+      <main></main>
+      <footer></footer>
+
+      <!-- (header>heading>h2+nav>ol>li*5)+main+footer -->
+      <header>
+         <heading>
+            <h2></h2>
+            <nav>
+               <ol>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+               </ol>
+            </nav>
+         </heading>
+      </header>
+      <main></main>
+      <footer></footer>
+   </ul>
+
+   <!-- (header>h2{Heading}+nav>ol>li*5)+main+footer -->
+   <header>
+      <h2>Heading</h2>
+      <nav>
+         <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+         </ol>
+      </nav>
+   </header>
+   <main></main>
+   <footer></footer>
+
+   <!-- (header>h2{Heading}+nav>ol>li*5>a[href=#]{Link $})+main+footer -->
+   <header>
+      <h2>Heading</h2>
+      <nav>
+         <ol>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li><a href="#">Link 4</a></li>
+            <li><a href="#">Link 5</a></li>
+         </ol>
+      </nav>
+   </header>
+   <main></main>
+   <footer></footer>
+
+   <!-- ul>li{thing$@-5}*10 -->
+   <ul>
+      <li>thing14</li>
+      <li>thing13</li>
+      <li>thing12</li>
+      <li>thing11</li>
+      <li>thing10</li>
+      <li>thing9</li>
+      <li>thing8</li>
+      <li>thing7</li>
+      <li>thing6</li>
+      <li>thing5</li>
+   </ul>
+
+   <!-- p.text -->
+   <p class="text"></p>
+
+   <!-- div.p -->
+   <div>
+      <p></p>
+   </div>
+
+   <!-- div*3 -->
+   <div></div>
+   <div></div>
+   <div></div>
+
+   <!-- The following was made in Emmet Live with:
+   !>(header>nav>ul#main-menu>li*3>a{Page $})+(main>p*5>lorem7)+footer -->
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Document</title>
+   </head>
+   <body>
+      <header>
+         <nav>
+            <ul id="main-menu">
+               <li><a href="">Page 1</a></li>
+               <li><a href="">Page 2</a></li>
+               <li><a href="">Page 3</a></li>
+            </ul>
+         </nav>
+      </header>
+      <main>
+         <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+         <p>Sunt autem facilis veritatis esse eligendi ullam.</p>
+         <p>Sint neque laboriosam natus vero impedit eius.</p>
+         <p>Dolores illo voluptatibus, est voluptas repellendus id!</p>
+         <p>Ipsa iste veritatis, ea consequuntur mollitia dignissimos!</p>
+      </main>
+      <footer></footer>
+   </body>
+   </html>
+
+   <!-- header>nav>ul#main-menu>li*3>a{Page $}^^^^(main>p*3>lorem7)+footer -->
+   <header>
+      <nav>
+         <ul id="main-menu">
+            <li><a href="">Page 1</a></li>
+            <li><a href="">Page 2</a></li>
+            <li><a href="">Page 3</a></li>
+         </ul>
+      </nav>
+   </header>
+   <main>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+      <p>Dolores possimus, officia vitae cumque optio facilis?</p>
+      <p>Neque autem magni fugiat. Odio, at error?</p>
+   </main>
+   <footer>   </footer>
+   
+</body>
+</html>
