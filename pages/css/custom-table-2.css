@@ -1,0 +1,8 @@
+.custom-table-2 tbody {
+   font-size: 95%;
+   font-style: italic;
+}
+
+.custom-table-2 tfoot {
+   font-weight: bold;
+}
