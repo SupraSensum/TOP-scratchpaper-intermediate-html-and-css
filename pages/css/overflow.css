@@ -1,0 +1,36 @@
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   height: 100vh;
+}
+
+.card {
+   border: 0.5rem solid grey;
+   border-radius: 0.5rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   width: 50vw;
+   height: 50vh;
+   box-shadow: 20px 10px 10px rgb(77, 77, 77);
+}
+
+.title,
+.content {
+   padding: 1.5rem;
+}
+
+.content {
+   overflow: scroll;
+   margin: 2rem;
+   border: 0.25rem solid grey;
+}
+
+.separator {
+   width: 20rem;
+   height: 0.25rem;
+   background-color: grey;
+}
