@@ -4,6 +4,8 @@ body {
    align-items: center;
    flex-direction: column;
    height: 100vh;
+   background: url(https://cdn.wallpapersafari.com/61/46/FkVIJ8.jpg);
+   gap: 1rem;
 }
 
 .card {
@@ -16,6 +18,8 @@ body {
    width: 50vw;
    height: 50vh;
    box-shadow: 20px 10px 10px rgb(77, 77, 77);
+   background-color: rgb(235, 235, 235);
+   opacity: 0.8;
 }
 
 .title,
@@ -33,4 +37,12 @@ body {
    width: 20rem;
    height: 0.25rem;
    background-color: grey;
+}
+
+.random-circle {
+   border: 1rem solid grey;
+   width: 5rem;
+   height: 5rem;
+   background-color: rgb(235, 235, 235);
+   border-radius: 50%;
 }
