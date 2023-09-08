@@ -1,0 +1,51 @@
+
+
+.text {
+   border: 2px solid grey;
+   box-shadow: 10px 5px 5px grey;
+   margin-bottom: 2rem;
+   padding: 0.25rem 1rem;
+   width: 33vw;
+}
+
+.floating-bar {   
+   color: white;
+   padding: 0.25rem 1rem;
+   background-color: black;
+   margin-bottom: 2rem;
+   position: sticky;
+}
+
+.floating-bar:nth-child(2) {
+   top: 1rem;
+}
+
+.floating-bar:nth-child(4) {
+   top: 8rem;
+}
+
+.floating-bar:nth-child(6) {
+   top: 15rem;
+}
+
+.floating-bar:nth-child(8) {
+   top: 22rem;
+}
+
+.floating-bar:nth-child(10) {
+   top: 29rem;
+}
+
+.floating-bar:nth-child(12) {
+   top: 36rem;
+}
+
+.floating-bar:nth-child(14) {
+   top: 43rem;
+}
+
+footer {
+   color: white;
+   background-color: red;
+   padding: 0.25rem 1rem;
+}
