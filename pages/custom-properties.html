@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Custom Properties</title>
+   <link rel="stylesheet" href="./css/custom-properties.css">
+   <link rel="stylesheet" href="./css/custom-properties-theme-toggle-button.css">
+   <link rel="stylesheet" href="./css/custom-properties-theme-toggle-os.css">
+   <link rel="stylesheet" href="./css/custom-properties-fallback-values.css">
+   <script src="../scripts/custom-properties/theme-toggle-botton.js" defer="defer"></script>
+</head>
+<body>
+   <header>
+      <h1><a href="https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-custom-properties">Custom Properties</a></h1>
+   </header>
+   <main>
+      <div class="sandbox theme-toggle-button light">
+         <h2><a href="https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-custom-properties#creating-themes-with-custom-properties">Theme Button Toggle</a></h2>
+         <p>You're now viewing this example with the <span class="theme-name"></span> theme!</p>
+         <button class="theme-toggle">Toggle Theme</button>
+      </div>
+      <div class="sandbox theme-toggle-os">
+         <h2><a href="https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-custom-properties#creating-themes-with-custom-properties">Theme OS Toggle</a></h2>
+         <p>You're now viewing this example with the <span class="theme-name"></span> theme!</p>
+      </div>
+      <div class="sandbox fallback-values">
+         <div class="fallback fallback1">normal, single fallback</div>
+         <div class="fallback fallback2">two fallbacks</div>
+         <div class="fallback fallback3">two fallbacks, first being another variable</div>
+      </div>
+   </main>
+</body>
+</html>

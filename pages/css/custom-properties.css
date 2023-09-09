@@ -1,0 +1,37 @@
+* {
+   box-sizing: border-box;
+}
+
+:root {
+   --header-height: 4rem;
+}   
+
+body {
+
+}   
+
+header {
+   border-bottom: 0.25rem solid grey;
+   height: var(--header-height);
+}
+
+main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 2rem;
+   padding: 2rem;
+}
+
+.sandbox {
+   width: 80vw;
+   height: clamp(24rem, 50vh, 48rem);
+   border: 0.25rem solid grey;
+   overflow: auto;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+}

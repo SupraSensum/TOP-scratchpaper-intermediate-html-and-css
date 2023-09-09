@@ -1,0 +1,32 @@
+.sandbox.fallback-values {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   padding: 1rem;
+   gap: 1rem;
+
+   --preferred-color: lightblue;
+   --backup-color: lightpink;
+   --failure-color: red;
+}
+
+.sandbox.fallback-values .fallback {
+   flex: 1 1 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   border: 0.125rem solid grey;
+}
+
+.sandbox.fallback-values .fallback1 {
+   background-color: var(--preferred-color, red);
+}
+
+.sandbox.fallback-values .fallback2 {
+   background-color: var(--preferred-color, yellow, red);
+}
+
+.sandbox.fallback-values .fallback3 {
+   background-color: var(--nonexistent, --backup-color, red);
+}

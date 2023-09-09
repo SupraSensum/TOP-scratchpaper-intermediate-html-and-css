@@ -1,0 +1,25 @@
+.theme-toggle-button.dark {
+   --background-color: black;
+   --font-color: white;
+   --theme-name: 'dark';
+}
+
+.theme-toggle-button.light {
+   --background-color: white;
+   --font-color: black;
+   --theme-name: 'light';
+}
+
+.theme-toggle-button {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+   background-color: var(--background-color);
+   color: var(--font-color);
+}
+
+.theme-toggle-button .theme-name::after {
+   content: var(--theme-name);
+}

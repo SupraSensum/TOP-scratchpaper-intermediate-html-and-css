@@ -1,0 +1,27 @@
+.theme-toggle-os {
+   --background-color: white;
+   --font-color: black;
+   --theme-name: 'light';
+}
+
+@media (prefers-color-scheme: dark) {
+   .theme-toggle-os {
+      --background-color: black;
+      --font-color: white;
+      --theme-name: 'dark';
+   }
+}
+
+.theme-toggle-os {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+   background-color: var(--background-color);
+   color: var(--font-color);
+}
+
+.theme-toggle-os .theme-name::after {
+   content: var(--theme-name);
+}
