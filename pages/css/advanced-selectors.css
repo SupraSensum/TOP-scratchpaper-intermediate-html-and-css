@@ -104,4 +104,8 @@ div > .child {
    content: ' -- CHOOO!';
 }
 
+div.parent.every-third:hover {
+   background-color: green;
+}
+
 /* DEBUGGING */
