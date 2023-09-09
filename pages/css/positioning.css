@@ -110,6 +110,58 @@ main {
    background-color: purple;
 }
 
+.card-three {
+   justify-content: center;
+   align-items: center;
+}
+
+.card-three .parent {
+   height: 80%;
+   width: 80%;
+   background-color: lightblue;
+   padding: 1rem;
+   display: flex;
+   flex-direction: column;
+   position: relative;
+}
+
+.card-three .child {
+   flex: 1;
+   display: flex;
+   align-items: center;
+   padding: 1rem;
+}
+
+#card-three-target {
+   background-color: lightgreen;
+   position: absolute;
+   bottom: 4rem;
+   right: 4rem;
+   height: 25%;
+   width: 25%;
+}
+
+.card-three .child2 {
+   background-color: lightcoral;
+   position: absolute;
+   bottom: 4rem;
+   left: 4rem;
+   height: 25%;
+   width: 25%;
+}
+
+.card-three .child3 {
+   background-color: lightsalmon;
+}
+
+.card-three .child4 {
+   background-color: lightpink;
+}
+
+.card-three .child5 {
+   background-color: purple;
+}
+
 footer {
    color: white;
    background-color: red;
