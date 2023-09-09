@@ -1,3 +1,10 @@
+h2,
+h3,
+p {
+   margin: 0;
+   padding: 0;
+}
+
 body {
    display: flex;
    flex-direction: column;
@@ -27,12 +34,12 @@ main {
    border: 2px solid grey;
    box-shadow: 10px 5px 5px grey;
    margin-bottom: 2rem;
-   padding: 0.25rem 1rem;
+   padding: 1rem 1rem;
 }
 
 .floating-bar {   
    color: white;
-   padding: 0.25rem 1rem;
+   padding: 1rem 1rem;
    background-color: black;
    margin-bottom: 2rem;
    position: sticky;
@@ -160,6 +167,20 @@ main {
 
 .card-three .child5 {
    background-color: purple;
+}
+
+.annoyance {
+   position: fixed;
+   top: 1rem;
+   right: 1rem;
+   width: 8rem;
+   padding: 0.125rem 0.25rem;
+   border: 4px solid grey;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   background-color: rgb(228, 228, 228);
 }
 
 footer {
