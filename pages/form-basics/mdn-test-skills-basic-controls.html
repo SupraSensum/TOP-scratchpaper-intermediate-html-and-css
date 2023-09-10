@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>MDN: Test your skills: Basic Controls</title>
+   <link rel="stylesheet" href="../css/normalize.css">
+   <link rel="stylesheet" href="../css/mdn-test-skills-basic-controls.css">
+</head>
+<body>
+   <h1><a href="https://developer.mozilla.org/en-US/docs/Learn/Forms/Test_your_skills:_Basic_controls">MDN: Test your skills: Basic Controls</a></h1>
+
+   <h2><a href="https://developer.mozilla.org/en-US/docs/Learn/Forms/Test_your_skills:_Basic_controls#basic_controls_1">Basic controls 1</a></h2>
+   <div id="form-1" class="form-container">
+      <form>
+         <ul>
+            <li>
+               <label for="user-id">
+                  <span>User ID</span>
+               </label>
+               <input type="text" name="user-id" id="user-id">
+            </li>
+            <li>
+               <label for="pwd">
+                  <span>Password</span>
+               </label>
+               <input type="password" name="pwd" id="pwd">
+            </li>
+            <li>
+               <button type="submit">Log in</button>
+            </li>
+         </ul>
+      </form>
+   </div>
+
+   <h2><a href="https://developer.mozilla.org/en-US/docs/Learn/Forms/Test_your_skills:_Basic_controls#basic_controls_2">Basic controls 2</a></h2>
+   <div id="form-2" class="form-container">
+      <form>
+         <fieldset>
+            <legend>Who is your favorite pony?</legend>
+            <p>
+               <input type="radio" name="favorite-pony" id="pinkie" checked>
+               <label for="pinkie">Pinkie Pie</label>
+            </p>
+            <p>
+               <input type="radio" name="favorite-pony" id="randbow-dash">
+               <label for="rainbow">Rainbow Dash</label>
+            </p>
+            <p>
+               <input type="radio" name="favorite-pony" id="twilight-sparkle">
+               <label for="twilight">Twilight Sparkle</label>
+            </p>
+         </fieldset>
+         <fieldset>
+            <legend>Hotdog preferences</legend>
+            <p>
+               <input type="checkbox" name="hotdog-preference" id="vegan">
+               <label for="vegan">Vegan</label>
+            </p>
+            <p>
+               <input type="checkbox" name="hotdog-preference" id="onions">
+               <label for="onions">Onions</label>
+            </p>
+            <p>
+               <input type="checkbox" name="hotdog-preference" id="ketchup">
+               <label for="ketchup">Ketchup</label>
+            </p>
+            <p>
+               <input type="checkbox" name="hotdog-preference" id="relish">
+               <label for="relish">Relish</label>
+            </p>
+            <p>
+               <input type="checkbox" name="hotdog-preference" id="mustard">
+               <label for="mustard">Mustard</label>
+            </p>
+         </fieldset>
+         <button>Submit</button>
+      </form>
+   </div>
+
+   <h2><a href="https://developer.mozilla.org/en-US/docs/Learn/Forms/Test_your_skills:_Basic_controls#basic_controls_3">Basic controls 3</a></h2>
+   <div id="form-3" class="form-container">
+      <form>
+         <ul>
+            <li>
+               <label for="gallery-img">Choose gallery images to upload</label>
+               <p>
+                  <input type="file" name="gallery-img" id="gallery-img" accept=".jpg,.png" multiple>
+               </p>
+            </li>
+         </ul>
+         <button>Submit</button>
+      </form>
+   </div>
+</body>
+</html>

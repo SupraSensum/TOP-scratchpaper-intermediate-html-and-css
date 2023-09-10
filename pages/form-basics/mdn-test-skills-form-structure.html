@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Test your skills: Form structure</title>
+   <link rel="stylesheet" href="../css/normalize.css">
+   <link rel="stylesheet" href="../css/mdn-test-skills-form-structure.css">
+</head>
+<body>
+   <h1><a href="https://developer.mozilla.org/en-US/docs/Learn/Forms/Test_your_skills:_Form_structure">Test your skills: Form structure</a></h1>
+   <form action="" method="post">
+      <fieldset>
+         <legend>Comment Form</legend>
+
+         <fieldset>
+            <legend>Personal details</legend>
+
+            <p>
+               <p>
+                  <label for="name">
+                     <span>Name:</span>
+                  </label>
+               </p>
+               <input type="text" name="name" id="name">
+            </p>
+            <p>
+               <p>
+                  <label for="age">
+                     <span>Age: </span>
+                  </label>
+               </p>
+               <input type="number" name="age" id="age">
+            </p>
+            <p>
+               <p>
+                  <label for="pwd">
+                     <span>Password: </span>
+                  </label>
+               </p>
+               <input type="password" name="pwd" id="pwd">
+            </p>
+         </fieldset>
+
+         <fieldset>
+            <legend>Comment information</legend>
+            
+            <p>
+               <p>
+                  <label for="comment">
+                     <span>Comment: </span>
+                  </label>
+               </p>
+               <input type="text" name="comment" id="comment">
+            </p>
+            <p>
+               <p>
+                  <label for="email">
+                     <span>E-mail: </span>
+                  </label>
+               </p>
+               <input type="text" name="email" id="email">
+            </p>
+         </fieldset>
+         <fieldset>
+            <legend>File picker</legend>
+            <input type="file" name="file" id="file" accept="image/*" multiple />
+         </fieldset>
+         <fieldset>
+            <input type="image" name="submit-button" id="submit-button" src="../../img/mdn-test-skills-form-structure/cursor-154478_640.png" alt="big, pixelated mouse cursor">
+         </fieldset>
+      </fieldset>
+   </form>
+</body>
+</html>

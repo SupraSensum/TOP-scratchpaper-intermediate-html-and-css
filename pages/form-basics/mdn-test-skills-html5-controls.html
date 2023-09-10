@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>MDN: Test your skills: HTML5 controls</title>
+   <link rel="stylesheet" href="../css/normalize.css">
+   <link rel="stylesheet" href="../css/mdn-test-skills-html5-controls.css">
+</head>
+<body>
+   <h1><a href="https://developer.mozilla.org/en-US/docs/Learn/Forms/Test_your_skills:_HTML5_controls">MDN: Test your skills: HTML5 controls</a></h1>
+
+   <div class="form-container">
+      <h2><a href="https://developer.mozilla.org/en-US/docs/Learn/Forms/Test_your_skills:_HTML5_controls#html_controls_1">HTML controls 1</a></h2>
+
+      <form>
+         <p>
+            <label for="user-email">
+               <span>Email: </span>
+            </label>
+            <input type="email" name="user-email" id="user-email">
+         </p>
+
+         <p>
+            <label for="website">
+               <span>Website: </span>
+            </label>
+            <input type="url" name="website" id="website">
+         </p>
+
+         <p>
+            <label for="user-phone-num">
+               <span>Phone number: </span>
+            </label>
+            <input type="tel" name="user-phone-num" id="user-phone-num">
+         </p>
+
+         <p>
+            <label for="fav-col">
+               <span>Favorite color: </span>
+            </label>
+            <input type="color" name="fav-col" id="fav-col">
+         </p>
+
+         <p>
+            <button type="submit">Submit</button>
+         </p>
+      </form>
+   </div>
+
+   <div class="form-container">
+      <form>
+         <ul>
+            <li>
+               <p>
+                  <label for="max-invite">Select maximum number of invitations:</label>
+                  <p class="invite-output"></p>
+               </p>
+               <input type="range" name="max-invite" id="max-invite" min="1" max="30" value="10">
+            </li>
+            <li>
+               <p>
+                  <button>Submit</button>
+               </p>
+            </li>
+         </ul>
+      </form>
+      <script>
+         const invite = document.querySelector('#max-invite');
+         const output = document.querySelector('.invite-output');
+
+         output.textContent = invite.value;
+
+         invite.addEventListener('input', function () {
+            output.textContent = invite.value;
+         });
+      </script>
+   </div>
+</body>
+</html>
