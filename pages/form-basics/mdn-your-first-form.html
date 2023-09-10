@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>MDN: Your First Form</title>
+   <link rel="stylesheet" href="../css/mdn-your-first-form.css">
+</head>
+<body>
+   <h1><a href="https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form">MDN: Your First Form</a></h1>
+   <form action="/my-handling-form-page" method="post">   
+      <fieldset>
+      
+         <legend>Contact</legend>
+         <ul>
+            <li>
+               <label for="name">Name:</label>
+               <input type="text" name="name" id="name">
+            </li>
+
+            <li>
+               <label for="email">E-mail:</label>
+               <input type="email" name="email" id="email">
+            </li>
+
+            <li>
+               <label for="msg">Message:</label>
+               <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+            </li>
+            
+            <li class="button">
+               <button type="submit">Send your message</button>
+               <button type="reset">Reset</button>
+            </li>
+         </ul>
+      
+      </fieldset>
+   </form>
+</body>
+</html>
