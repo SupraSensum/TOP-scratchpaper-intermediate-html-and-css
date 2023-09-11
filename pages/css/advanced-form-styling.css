@@ -1,0 +1,8 @@
+main {
+   display: flex;
+   gap: 4rem;
+}
+
+.after input {
+   appearance: none;
+}
