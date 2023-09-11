@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Styling controls based on whether their data is valid</title>
+   <link rel="stylesheet" href="../css/normalize.css">
+   <link rel="stylesheet" href="../css/styling-controls-based-on-whether-their-data-is-valid.css">
+</head>
+
+<body>
+   <h1><a href="https://developer.mozilla.org/en-US/docs/Learn/Forms/UI_pseudo-classes#styling_controls_based_on_whether_their_data_is_valid">Styling controls based on whether their data is valid</a></h1>
+   <main>
+      <form>
+         <fieldset>
+            <legend>Feedback form</legend>
+
+            <p>Required fields are labelled with "required".</p>
+            <div>
+               <label for="user-first-name">First name:</label>
+               <input type="text" name="user-first-name" id="user-first-name" required>
+               <span></span>
+            </div>
+            <div>
+               <label for="user-last-name">Last name:</label>
+               <input type="text" name="user-last-name" id="user-last-name" required>
+               <span></span>
+            </div>
+            <div>
+               <label for="user-email">Email address (include if you want a response):</label>
+               <input type="email" name="user-email" id="user-email">
+               <span></span>
+            </div>
+            <div>
+               <button type="submit">Submit</button>
+            </div>
+         </fieldset>
+      </form>
+   </main>
+</body>
+
+</html>

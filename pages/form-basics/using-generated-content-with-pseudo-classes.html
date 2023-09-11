@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Using generated content with pseudo-classes</title>
+   <link rel="stylesheet" href="../css/normalize.css">
+   <link rel="stylesheet" href="../css/using-generated-content-with-pseudo-classes.css">
+</head>
+<body>
+   <h1><a href="https://developer.mozilla.org/en-US/docs/Learn/Forms/UI_pseudo-classes#using_generated_content_with_pseudo-classes">Using generated content with pseudo-classes</a></h1>
+   <main>
+      <form>
+         <fieldset>
+            <legend>Feedback form</legend>
+
+            <p>Required fields are labelled with "required".</p>
+            <div>
+               <label for="user-first-name">First name:</label>
+               <input type="text" name="user-first-name" id="user-first-name" required>
+               <span></span>
+            </div>
+            <div>
+               <label for="user-last-name">Last name:</label>
+               <input type="text" name="user-last-name" id="user-last-name" required>
+               <span></span>
+            </div>
+            <div>
+               <label for="user-email">Email address (include if you want a response):</label>
+               <input type="email" name="user-email" id="user-email">
+               <span></span>
+            </div>
+            <div>
+               <button type="submit">Submit</button>
+            </div>
+         </fieldset>
+      </form>
+   </main>
+</body>
+</html>
