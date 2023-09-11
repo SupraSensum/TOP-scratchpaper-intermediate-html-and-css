@@ -1,0 +1,15 @@
+#textarea-default {
+   resize: both;
+}
+
+#textarea-horizontal {
+   resize: horizontal;
+}
+
+#textarea-vertical {
+   resize: vertical;
+}
+
+#textarea-none {
+   resize: none;
+}
