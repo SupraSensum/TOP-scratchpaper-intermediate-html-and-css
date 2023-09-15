@@ -1,7 +1,6 @@
 .container {
    display: grid;
-   grid-template: 50px 50px / 50px 50px 50px;
-   grid-template: 25vh 50vh / 15% 70% 15%;
+   grid-template: 50px 50px / 250px 50px 50px;
 }
 
 .container > p {
