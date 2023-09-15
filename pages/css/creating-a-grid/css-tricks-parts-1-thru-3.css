@@ -15,3 +15,12 @@ body {
 .droste-grid-container > div {
    border: 2px solid blue;
 }
+
+.repeat-test {
+   display: grid;
+   grid-template: 2fr repeat(2, 1fr) 2fr / repeat(2, 2fr);
+}
+
+.repeat-test > div {
+   border: 2px solid blue;
+}
