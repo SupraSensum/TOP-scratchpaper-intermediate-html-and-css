@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Rabbit Hole 4</title>
+   <style>
+      body {
+         height: 100vh;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+      }
+
+      .container {
+         flex: 1;
+
+         height: 80%;
+         padding: 1rem;
+
+         display: grid;
+         grid-template: repeat(4, calc(100% / 4)) / repeat(4, calc(100% / 4));
+         grid-template-areas:
+            "top-a top-a top-b top-b"
+            "left . . right"
+            "left . . right"
+            "bottom bottom bottom bottom";
+      }
+
+      .container>div {
+         box-shadow: 5px 5px 5px silver;
+      }
+
+      .container> :nth-child(1) {
+         background-color: lightgreen;
+
+         z-index: 0;
+
+         grid-area: top-a;
+      }
+
+      .container> :nth-child(2) {
+         background-color: lightgreen;
+
+         z-index: 4;
+
+         grid-area: top-b;
+      }
+
+      .container> :nth-child(3) {
+         background-color: lightcoral;
+
+         z-index: 3;
+
+         grid-area: right;
+      }
+
+      .container> :nth-child(4) {
+         background-color: lightblue;
+
+         z-index: 1;
+
+         grid-area: left;
+      }
+
+      .container> :nth-child(5) {
+         background-color: lightyellow;
+
+         z-index: 2;
+
+         grid-area: bottom;
+      }
+   </style>
+</head>
+
+<body>
+   <div class="container">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+   </div>
+</body>
+
+</html>
