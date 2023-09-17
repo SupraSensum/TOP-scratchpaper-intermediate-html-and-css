@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Dynamic minimum and maximum sizes</title>
+   <style>
+      .grid-container {
+         resize: both;
+         overflow: auto;
+         display: grid;
+         grid-template: repeat(2, min(200px, 45%)) / repeat(4, minmax(50px, 250px));
+         /* grid-auto-rows: min(200px, 25%); */
+         
+         gap: 4px;
+         padding: 4px;
+         border: 1px solid grey;
+         background-color: skyblue;
+      }
+
+      .grid-item {
+         background-color: #444;
+         text-align: center;
+         color: #ddd;
+         font-family: sans-serif;
+         padding: 12px;
+      }
+   </style>
+</head>
+<body>
+   <h1><a href="https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-advanced-grid-properties#dynamic-minimum-and-maximum-sizes">Dynamic minimum and maximum sizes</a></h1>
+
+   
+   <h1><a href="https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-advanced-grid-properties#minimum-and-maximum-track-sizes-min-and-max">Minimum and maximum track sizes: min() and max()</a></h1>
+   <div class="grid-container">
+      <div class="grid-item">item #1</div>
+      <div class="grid-item">item #2</div>
+      <div class="grid-item">item #3</div>
+      <div class="grid-item">item #4</div>
+      <div class="grid-item">item #5</div>
+      <div class="grid-item">item #6</div>
+      <div class="grid-item">item #7</div>
+      <div class="grid-item">item #8</div>
+   </div>
+</body>
+</html>
